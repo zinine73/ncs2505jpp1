@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float turnSpeed = 45.0f;
     float horizontalInput;
     float forwardInput;
-    void Update()
+    void FixedUpdate()
     {
         // 키값 입력
         horizontalInput = Input.GetAxis("Horizontal");
